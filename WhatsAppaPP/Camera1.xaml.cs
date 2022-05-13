@@ -10,13 +10,13 @@ using Xamarin.Forms.Xaml;
 namespace WhatsAppaPP
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class WhatsappPage : ContentPage
+    public partial class Camera1 : ContentPage
     {
-        public WhatsappPage()
+        public Camera1()
         {
             InitializeComponent();
         }
 
- 
+        
     }
 }

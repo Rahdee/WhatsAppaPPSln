@@ -10,13 +10,15 @@ using Xamarin.Forms.Xaml;
 namespace WhatsAppaPP
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class WhatsappPage : ContentPage
+    public partial class Chats : ContentPage
     {
-        public WhatsappPage()
+        public Chats()
         {
             InitializeComponent();
         }
-
- 
+        private void ImageButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Contacts1());
+        }
     }
 }

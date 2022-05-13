@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="WhatsAppaPP.WhatsappPage">
+             x:Class="WhatsAppaPP.Camera1" IconImageSource="CameraIcon.png">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="#075e54">
-           
+        <StackLayout>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

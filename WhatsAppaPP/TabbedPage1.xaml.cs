@@ -15,6 +15,11 @@ namespace WhatsAppaPP
         public TabbedPage1()
         {
             InitializeComponent();
+
+            Children.Add(new Camera1());
+            Children.Add(new Chats());
+            Children.Add(new Status());
+            Children.Add(new Calls());
         }
     }
 }
