@@ -20,6 +20,11 @@ namespace WhatsAppaPP
             Children.Add(new Chats());
             Children.Add(new Status());
             Children.Add(new Calls());
+
+            var pages = Children.GetEnumerator();
+            pages.MoveNext(); // First page
+            pages.MoveNext(); // Second page
+            CurrentPage = pages.Current;
         }
     }
 }

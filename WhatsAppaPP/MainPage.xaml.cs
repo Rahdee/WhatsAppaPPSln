@@ -17,7 +17,7 @@ namespace WhatsAppaPP
         protected override async void OnAppearing()
         {
             base.OnAppearing();
-            await Task.Delay(3000);
+            await Task.Delay(3500);
             await Navigation.PushAsync(new TabbedPage1());
 
         }

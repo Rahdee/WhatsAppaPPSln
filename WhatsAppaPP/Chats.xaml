@@ -7,7 +7,7 @@
             <Label Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <ImageButton Source="whatsappchatiicon.png "
+            <ImageButton Source="chatter.png "
                          x:Name="ImageButton"
                          Margin="30"
                          HeightRequest="50"

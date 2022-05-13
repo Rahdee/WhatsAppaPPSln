@@ -4,7 +4,7 @@
              x:Class="WhatsAppaPP.Camera1" IconImageSource="CameraIcon.png" BackgroundColor="Black">
     <ContentPage.Content>
         <StackLayout>
-            <Image Source="Cameraphone1.png" HeightRequest="500" VerticalOptions="FillAndExpand"/>
+            <Image Source="Cameraphone1.png" HeightRequest="50" VerticalOptions="FillAndExpand"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
