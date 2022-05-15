@@ -4,9 +4,10 @@
              x:Class="WhatsAppaPP.Contacts1" Title="Contacts">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text=""
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>
+    
 </ContentPage>

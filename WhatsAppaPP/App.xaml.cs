@@ -13,6 +13,7 @@ namespace WhatsAppaPP
             var navigate = new NavigationPage(new MainPage());
             navigate.BarBackgroundColor = Color.DarkSeaGreen;
             MainPage = navigate;
+            
 
         }
 

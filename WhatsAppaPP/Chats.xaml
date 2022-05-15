@@ -4,7 +4,8 @@
              x:Class="WhatsAppaPP.Chats" Title="Chats">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text=""
+                   TextColor="Black"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
             <ImageButton Source="chatter.png "

@@ -4,7 +4,7 @@
              x:Class="WhatsAppaPP.MainPage"
              NavigationPage.HasNavigationBar="False">
     
-    <StackLayout BackgroundColor="#075e54">
+    <StackLayout  BackgroundColor="#075e54" >
 
         
         <StackLayout VerticalOptions="FillAndExpand">
@@ -12,8 +12,9 @@
             <Image Source="WhatsappLogo.png" HeightRequest="70" VerticalOptions="CenterAndExpand" Margin="160" />
             
         </StackLayout>
-        <Label Text="from" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" TextColor="White" Margin="-150"/>
-        <Image Source="Meta.png" HeightRequest="30" VerticalOptions="End"/>
+        <Label Text="from" HorizontalTextAlignment="center" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" TextColor="White" Margin="-180"/>
+        <Image Source="Meta.png" HeightRequest="30" VerticalOptions="End" Margin="10"/>
+         
     </StackLayout >
     
 
