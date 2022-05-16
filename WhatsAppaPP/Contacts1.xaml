@@ -1,12 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:whatsappapp="clr-namespace:WhatsAppaPP"
              x:Class="WhatsAppaPP.Contacts1" Title="Contacts">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+    <ContentPage.Content >
+        <ListView ItemsSource="{Binding Contacts}" HasUnevenRows="True" >
+
+            <ListView.ItemTemplate >
+                <DataTemplate x:DataType="whatsappapp:Contact" >
+                    <ViewCell>
+                        <Grid >
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="5" />
+                                <RowDefinition Height="25"/>
+                                <RowDefinition Height="25"/>
+                                <RowDefinition Height="5" />
+                            </Grid.RowDefinitions>
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="50"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Image Source="{Binding ProfileImageName}" Grid.RowSpan="4" HeightRequest="50" WidthRequest="50" />
+                            <Label Text="{Binding FullName}" Grid.Column="1"  Grid.Row="1" FontSize="20" FontAttributes="Bold" Padding="10,0,0,0"/>
+                            <Label Text="{Binding PhoneNumber}" Grid.Column="1" Grid.Row="2" FontSize="" FontAttributes="Bold" Padding="10,0,0,0"/>
+                        </Grid>
+                       
+
+                    </ViewCell>
+                    
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            
+            
+            
+        </ListView>
+
     </ContentPage.Content>
 </ContentPage>
+    
