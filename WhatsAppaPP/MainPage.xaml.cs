@@ -19,6 +19,7 @@ namespace WhatsAppaPP
             base.OnAppearing();
             await Task.Delay(3500);
             await Navigation.PushAsync(new TabbedPage1());
+            
 
         }
     }
