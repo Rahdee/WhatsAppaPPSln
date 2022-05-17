@@ -23,7 +23,7 @@
 
                             <Image Source="{Binding ProfileImageName}" Grid.RowSpan="4" HeightRequest="50" WidthRequest="50" />
                             <Label Text="{Binding FullName}" Grid.Column="1"  Grid.Row="1" FontSize="20" FontAttributes="Bold" Padding="10,0,0,0"/>
-                            <Label Text="{Binding PhoneNumber}" Grid.Column="1" Grid.Row="2" FontSize="" FontAttributes="Bold" Padding="10,0,0,0"/>
+                            <Label Text="{Binding PhoneNumber}" Grid.Column="1" Grid.Row="2" FontSize="18"  FontAttributes="Bold" Padding="10,0,0,0"/>
                         </Grid>
                        
 
