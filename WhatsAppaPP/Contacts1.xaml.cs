@@ -30,7 +30,12 @@ namespace WhatsAppaPP
             BindingContext = this;
 
         }
+        public class ScrollBarColorEffect : RoutingEffect
+        {
+            public ScrollBarColorEffect() : base($"MPlay.{nameof(ScrollBarColorEffect)}") { }
 
+            public Color ScrollBarColor { get; set; }
+        }
         private void GenerateContracts()
         {
             var contact = new Contact();
