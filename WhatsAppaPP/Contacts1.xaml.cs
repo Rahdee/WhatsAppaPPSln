@@ -139,5 +139,9 @@ namespace WhatsAppaPP
 
         }
 
+        private void ListView_Scrolled(object sender, ScrolledEventArgs e)
+        {
+
+        }
     }
 }

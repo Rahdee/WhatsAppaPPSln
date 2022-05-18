@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="WhatsAppaPP.Chats" Title="Chats">
+             x:Class="WhatsAppaPP.Chats" Title="Chats" BackgroundColor="#333333">
     <ContentPage.Content>
         <StackLayout>
             <Label Text=""
-                   TextColor="Black"
+                   TextColor="White"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <ImageButton Source="chatter.png "
+            <ImageButton Source="chat.png"
                          x:Name="ImageButton"
                          Margin="30"
                          HeightRequest="50"

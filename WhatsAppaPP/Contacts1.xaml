@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:whatsappapp="clr-namespace:WhatsAppaPP"
-             x:Class="WhatsAppaPP.Contacts1" Title="Contacts">
+             x:Class="WhatsAppaPP.Contacts1" Title="Contacts" BackgroundColor="#333333" >
     <ContentPage.Content >
         <ListView ItemsSource="{Binding Contacts}" HasUnevenRows="True" >
 
@@ -21,9 +21,9 @@
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
 
-                            <Image Source="{Binding ProfileImageName}" Grid.RowSpan="4" HeightRequest="50" WidthRequest="50" Margin="5,0,0,0" />
-                            <Label Text="{Binding FullName}" Grid.Column="1"  Grid.Row="1" FontSize="20" FontAttributes="Bold" Padding="10,0,0,0"/>
-                            <Label Text="{Binding PhoneNumber}" Grid.Column="1" Grid.Row="2" FontSize="18"  FontAttributes="Bold" Padding="10,0,0,0"/>
+                            <Image Source="{Binding ProfileImageName}" Grid.RowSpan="4" HeightRequest="50" WidthRequest="50"  Margin="6,0,0,0" />
+                            <Label Text="{Binding FullName}" Grid.Column="1"  Grid.Row="1" FontSize="20" FontAttributes="Bold" Padding="10,0,0,0" TextColor="White"/>
+                            <Label Text="{Binding PhoneNumber}" Grid.Column="1" Grid.Row="2" FontSize="18"  FontAttributes="Bold" Padding="10,0,0,0" TextColor="White"/>
                         </Grid>
                        
 
