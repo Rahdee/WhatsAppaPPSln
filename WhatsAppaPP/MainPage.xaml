@@ -3,8 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="WhatsAppaPP.MainPage"
              NavigationPage.HasNavigationBar="False">
-    
-    <StackLayout  BackgroundColor="#075e54" >
+
+    <StackLayout  BackgroundColor="#333333" >
 
         
         <StackLayout VerticalOptions="FillAndExpand">
@@ -13,8 +13,8 @@
             
         </StackLayout>
 
-        <Label Text="from" VerticalTextAlignment="Center" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" TextColor="White" Margin="-170"/>
-        <Image Source="Meta.png" HeightRequest="30" VerticalOptions="End" Margin="10"  HorizontalOptions="CenterAndExpand"/>
+        <Label Text="from" HeightRequest="25" VerticalTextAlignment="Center" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" TextColor="White" Margin="-170"/>
+        <Image Source="Meta.png" HeightRequest="30" VerticalOptions="End" Margin="25"  HorizontalOptions="CenterAndExpand"/>
 
         
          
