@@ -21,14 +21,15 @@
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
 
-                            <Image Source="{Binding ProfileImageName}" Grid.RowSpan="4" HeightRequest="50" WidthRequest="50"  Margin="6,0,0,0" />
+                            <!-- <ImageButton x:Name="ContactButton" Source="{Binding ProfileImageName}" Grid.RowSpan="4" HeightRequest="50" WidthRequest="50"  Margin="6,0,0,0" Clicked="ContactButton_Clicked"/> -->
+                            <Image x:Name="ContactButton" Source="{Binding ProfileImageName}" Grid.RowSpan="4" HeightRequest="50" WidthRequest="50"  Margin="6,0,0,0">
+                                <Image.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="ContactButton_Clicked"/>
+                                </Image.GestureRecognizers>
+                            </Image>
                             <Label Text="{Binding FullName}" Grid.Column="1"  Grid.Row="1" FontSize="Large" FontAttributes="Bold" Padding="10,0,0,0" TextColor="White"/>
                             <Label Text="{Binding PhoneNumber}" Grid.Column="1" Grid.Row="2" FontSize="Medium"  FontAttributes="Bold" Padding="10,0,0,0" TextColor="White" />
-                            <Button Clicked="Button_Clicked">
-                                
-                                
-                                
-                            </Button>
+                            
                         </Grid>
                        
 

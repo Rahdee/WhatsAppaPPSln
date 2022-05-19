@@ -149,9 +149,9 @@ namespace WhatsAppaPP
 
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+        private void ContactButton_Clicked(object sender, EventArgs e)
         {
-            _ = Navigation.PushAsync(new InsideContactPage1());
+            Navigation.PushAsync(new InsideContactPage1());
         }
     }
 }
