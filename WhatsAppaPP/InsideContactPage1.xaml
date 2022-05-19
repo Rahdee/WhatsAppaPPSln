@@ -4,8 +4,10 @@
              x:Class="WhatsAppaPP.InsideContactPage1">
     <ContentPage.Content>
         <StackLayout Padding="0" >
-            <Image Source="ChatPicture.png"  Aspect="Fill" VerticalOptions="FillAndExpand" MinimumHeightRequest="5" MinimumWidthRequest="5" />
+            <Image Source="WhatsappChat1.png" Aspect="Fill" VerticalOptions="FillAndExpand" HorizontalOptions="Fill" MinimumHeightRequest="500" MinimumWidthRequest="400" />
 
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
+
+

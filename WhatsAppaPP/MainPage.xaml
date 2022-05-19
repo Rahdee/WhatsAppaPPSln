@@ -13,8 +13,8 @@
             
         </StackLayout>
 
-        <Label Text="from" HeightRequest="25" VerticalTextAlignment="Center" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" TextColor="White" Margin="-170"/>
-        <Image Source="Meta.png" HeightRequest="30" VerticalOptions="End" Margin="25"  HorizontalOptions="CenterAndExpand"/>
+        <Label Text="from" Padding="5,5,5,0" HeightRequest="25" VerticalTextAlignment="Center" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" TextColor="SlateGray" Margin="-170"/>
+        <Image Source="Meta.png"  HeightRequest="30" VerticalOptions="End" Margin="25"  HorizontalOptions="CenterAndExpand"/>
 
         
          

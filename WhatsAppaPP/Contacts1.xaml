@@ -22,7 +22,7 @@
                             </Grid.ColumnDefinitions>
 
                             <!-- <ImageButton x:Name="ContactButton" Source="{Binding ProfileImageName}" Grid.RowSpan="4" HeightRequest="50" WidthRequest="50"  Margin="6,0,0,0" Clicked="ContactButton_Clicked"/> -->
-                            <Image x:Name="ContactButton" Source="{Binding ProfileImageName}" Grid.RowSpan="4" HeightRequest="50" WidthRequest="50"  Margin="6,0,0,0">
+                            <Image x:Name="ContactButton" Source="{Binding ProfileImageName}" Grid.RowSpan="4" HeightRequest="50" WidthRequest="50"  Margin="8,0,0,0">
                                 <Image.GestureRecognizers>
                                     <TapGestureRecognizer Tapped="ContactButton_Clicked"/>
                                 </Image.GestureRecognizers>
